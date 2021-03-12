@@ -8,7 +8,9 @@ This image is available on [Dockerhub](https://hub.docker.com/r/ceeveeya/blackd)
 
 Here is a short [article](https://dev.to/c_v_ya/black-in-docker-5dfp) I wrote about setting this up. But in short:
 
-`docker run -p 45484:45484 blackd ceeveeya/blackd:latest`
+```
+docker run -d -p 45484:45484 --name blackd ceeveeya/blackd:latest
+```
 
 
 ### Pycharm
