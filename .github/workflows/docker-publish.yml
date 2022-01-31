@@ -71,8 +71,8 @@ jobs:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
-            ceeveeya/blackd:${{ steps.meta.outputs.tags }}
-            ceeveeya/blackd:latest
+            ${{ steps.meta.outputs.tags }}
+            latest
           labels: ${{ steps.meta.outputs.labels }}
 
       # Sign the resulting Docker image digest except on PRs.
