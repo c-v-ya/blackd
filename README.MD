@@ -1,4 +1,4 @@
-# Blackd
+# Blackd [![build](https://github.com/c-v-ya/blackd/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/c-v-ya/blackd/actions/workflows/docker-publish.yml)
 
 Run [Black](https://github.com/psf/black) Python formatter in Docker.
 
